@@ -2,7 +2,7 @@
     "plugins": [
         "bibtex",
         "youtube",
-        "katex"
+        "-katex"
     ],
     "pluginsConfig": {}
 }
