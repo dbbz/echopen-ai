@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "bibtex"
+        "bibtex",
+        "youtube"
     ],
     "pluginsConfig": {}
 }
