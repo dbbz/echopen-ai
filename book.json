@@ -1,7 +1,8 @@
 {
     "plugins": [
         "bibtex",
-        "youtube"
+        "youtube",
+        "katex"
     ],
     "pluginsConfig": {}
 }
