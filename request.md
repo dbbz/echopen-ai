@@ -1,3 +1,8 @@
-# First Chapter
+# Request for Research
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+- Explainability of the models
+- Compression of the models
+- Real-time prediction on a mobile device
+- Organ recognition 
+- Anomaly detection
+- Model adaptation for particular cases (fat subjects etc.)
