@@ -6,3 +6,4 @@
 - Organ recognition 
 - Anomaly detection
 - Model adaptation for particular cases (fat subjects etc.)
+- Image denoising (electronic and speckle)
