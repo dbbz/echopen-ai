@@ -6,4 +6,5 @@
 - Organ recognition 
 - Anomaly detection
 - Model adaptation for particular cases (fat subjects etc.)
-- Image denoising (electronic and speckle)
+- Denoising images and improving the image quality for physicians (electronic and speckle)
+- Generate a realistic rendering of the images so to make the result intelligibleby non-practitioners
