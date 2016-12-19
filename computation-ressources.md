@@ -19,3 +19,18 @@ sh -c "$(curl -fsSL     https://raw.githubusercontent.com/robbyrussell/oh-my-zsh
 # or
 
 ```
+
+
+
+```
+#!/bin/bash
+#SBATCH --time=100:30:00
+#SBATCH -N 1
+#SBATCH -n 8
+#SBATCH --gres=gpu:1
+#SBATCH --error=jobs/job.%J.err
+#SBATCH --output=jobs/job.%J.out
+module load cuda/8.0_test
+jupyter notebook /home/dbenbouzid/notebooks
+sleep 10000h
+```
