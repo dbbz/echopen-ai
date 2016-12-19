@@ -47,9 +47,9 @@ sleep 24h
 ```
 
 ### Ressources restrictions
-- Number of GPUs: 0-2
-- Number of cores:  1-6
-- If you use a GPU, you can allocate a maximum of 8 cores. 
+- Number of GPUs per node: 0-2
+- Number of cores per node:  1-16
+- If the number of cores is greater than 8, you must allocate . 
 
 ### Futher SBATCH options
 ``` 	 
@@ -60,7 +60,7 @@ sleep 24h
 ### Further Slurm options
 - `scontrol show job <job id>`, for a detailed description of a job
 - `scancel --interactive --user=<username>`, cancel all the jobs of a specific user
-- 'srun <command>', immediate execution of a command
+- `srun <command>`, immediate execution of a command
 
 ### ENV variables inside jobs
 ```
