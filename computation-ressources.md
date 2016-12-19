@@ -77,6 +77,6 @@ SLURM_SUBMIT_DIR : source directory for the job
 
     module load cuda/8.0_test
     
-to your script, and restric your job submission to the nodes that actually have Cuda8. This is done using the `-w` option of `sbatch`
+to your script, and restric your job submission to the nodes that actually implement Cuda8. This is done using the `-w` option of `sbatch`, followed by the list of valid nodes
 
     sbatch <script name> -w romeo[35,45-51,56,58,63-74,140]
