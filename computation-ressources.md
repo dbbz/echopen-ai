@@ -60,6 +60,7 @@ sleep 24h
 ### Further Slurm options
 - `scontrol show job <job id>`, for a detailed description of a job
 - `scancel --interactive --user=<username>`, cancel all the jobs of a specific user
+- 'srun <command>', immediate execution of a command
 
 ### ENV variables inside jobs
 ```
