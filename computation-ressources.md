@@ -35,7 +35,7 @@ In order to launch a job, you will have to write a script containing two parts: 
 #!/bin/bash
 #SBATCH -J "My job"  # the name of the job
 #SBATCH --comment "For comments, eg. a description of your job"
-#SBATCH --time=24:00:00
+#SBATCH --time=24:00:00  # wall time, HH:MM:SS
 #SBATCH -N 1
 #SBATCH -n 8
 #SBATCH --gres=gpu:1
