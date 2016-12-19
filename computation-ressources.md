@@ -38,9 +38,11 @@ In order to launch a job, you will have to write a script containing two parts: 
 #SBATCH --time=24:00:00  # wall time, HH:MM:SS
 #SBATCH -N 1  # number of nodes (machines)
 #SBATCH -n 8  # number of cores
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:1  # number of GPUs
 #SBATCH --error=jobs/job.%J.err  # where the errors are written
 #SBATCH --output=jobs/job.%J.out  # where the standard output is written
+
+echo $CUDA_VISIBLE_DEVICES
 sleep 24h
 ```
 
