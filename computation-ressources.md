@@ -11,6 +11,7 @@ After getting an account and a `<username>` on ROMEO,
 ssh <username>@romeo1.univ-reims.fr
 ```
 
+### Tip
 For your first connexion, I strongly recommend using `ZSH` in order to boost your productivity
 
 ```
