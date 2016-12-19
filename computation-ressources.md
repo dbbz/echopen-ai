@@ -46,7 +46,7 @@ echo $CUDA_VISIBLE_DEVICES
 sleep 24h
 ```
 
-### Ressources restrictions
+### Ressources constraints
 - Number of GPUs per node: 0-2
 - Number of cores per node:  1-16
 - If the number of cores is greater than 8, you must allocate both GPUs. 
