@@ -57,5 +57,14 @@ sleep 24h
 #SBATCH --mail-type=ALL
 ```
 
+### ENV variables inside jobs
+```
+SLURM_NPROCS : number of cores
+SLURM_NNODES : number of nodes
+SLURM_JOB_ID : job id
+SLURM_JOB_NODELIST : list of nodes
+SLURM_SUBMIT_DIR : source directory for the job
+```
+
 
 ### Tensorflow and Cuda8
