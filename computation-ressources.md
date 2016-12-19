@@ -33,12 +33,14 @@ In order to launch a job, you will have to write a script containing two parts: 
 
 ```
 #!/bin/bash
-#SBATCH --time=100:30:00
+#SBATCH -J "My job"  # the name of the job
+#SBATCH --comment "For comments, eg. a description of your job"
+#SBATCH --time=24:00:00
 #SBATCH -N 1
 #SBATCH -n 8
 #SBATCH --gres=gpu:1
-#SBATCH --error=jobs/job.%J.err
-#SBATCH --output=jobs/job.%J.out
+#SBATCH --error=jobs/job.%J.err  # where the errors are written
+#SBATCH --output=jobs/job.%J.out  # where the standard output is written
 sleep 24h
 ```
 
