@@ -29,7 +29,7 @@ _ROMEO_ uses the `Slurm` workload manager. There are three main commands to know
 - `squeue -u <username>`, to display various information about your jobs, like the `<job id>`
 - `scancel <job id>`, in order to cancel a job
 
-In order to launch a job, you will have to write a script containing two parts: a ressource definition and the actual instructions you would like to execute.  The ressource definition describes what kind of machine you want to allocate, the number of cores, the number of GPUs etc. Here is an example that does nothing but a `sleep`. 
+In order to launch a job, you will have to write a script containing two parts: a ressource definition and the actual instructions you would like to execute.  The ressource definition describes what kind of machine you want to allocate, the number of cores, the number of GPUs etc. every definition starts with `#SBATCH`. Here is an example that does nothing but a `sleep`. 
 
 ```
 #!/bin/bash
