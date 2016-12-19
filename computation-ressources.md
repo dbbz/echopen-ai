@@ -39,12 +39,11 @@ In order to launch a job, you will have to write a script containing two parts: 
 #SBATCH --gres=gpu:1
 #SBATCH --error=jobs/job.%J.err
 #SBATCH --output=jobs/job.%J.out
-module load cuda/8.0_test
-jupyter notebook /home/dbenbouzid/notebooks
-sleep 10000h
+sleep 24h
 ```
 
 ### Ressources restrictions
 - Number of GPUs: 0-2
 - Number of cores:  1-6
 - If you use a GPU, you can allocate a maximum of 8 cores. 
+
