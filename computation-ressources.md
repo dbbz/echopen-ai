@@ -23,6 +23,7 @@ then make `ZSH` you default shell with
     echo "exec /bin/zsh" >> .bash_profile
 
 ### Launching jobs
+_ROMEO_ uses the `Slurm` workload manager. There are three main commands to know in order to start off
 
 ```
 #!/bin/bash
