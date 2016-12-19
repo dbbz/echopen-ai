@@ -57,6 +57,10 @@ sleep 24h
 #SBATCH --mail-type=ALL
 ```
 
+### Further Slurm options
+- `scontrol show job <job id>`, for a detailed description of a job
+- `scancel --interactive --user=<username>`, cancel all the jobs of a specific user
+
 ### ENV variables inside jobs
 ```
 SLURM_NPROCS : number of cores
