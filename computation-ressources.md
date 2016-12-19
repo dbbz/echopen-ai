@@ -71,5 +71,10 @@ SLURM_JOB_NODELIST : list of nodes
 SLURM_SUBMIT_DIR : source directory for the job
 ```
 
+### Tensorflow and Cuda8 (temporary setup)
 
-### Tensorflow and Cuda8
+`Tensorflow` uses Cuda8, which is not currently deployed on all of the nodes. If you want to use it, you will have to execute 
+
+    module load cuda/8.0_test
+    
+inside your script 
