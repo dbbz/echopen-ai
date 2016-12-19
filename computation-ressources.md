@@ -52,7 +52,10 @@ sleep 24h
 - If you use a GPU, you can allocate a maximum of 8 cores. 
 
 ### Futher SBATCH options
-
+``` 	 
+#SBATCH --mail-user=<name@domain.com>
+#SBATCH --mail-type=ALL
+```
 
 
 ### Tensorflow and Cuda8
