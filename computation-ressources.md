@@ -73,8 +73,10 @@ SLURM_SUBMIT_DIR : source directory for the job
 
 ### Tensorflow and Cuda8 (temporary setup)
 
-`Tensorflow` uses Cuda8, which is not currently deployed on all of the nodes. If you want to use it, you will have to execute 
+`Tensorflow` uses Cuda8, which is not currently deployed on all of the nodes. If you want to use it, you will have to add
 
     module load cuda/8.0_test
     
-inside your script 
+to your script, and restric your job submission to the nodes that actually have Cuda8 by adding a `-w` option to `sbatch`. 
+
+    sbatch <script name> -w romeo[35,45-51,56,58,63-74,140]
