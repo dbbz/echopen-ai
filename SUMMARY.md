@@ -1,9 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [Request for research](request.md)
+* [Academic ressources](ressources-to-learn.md)
+* [Computational ressources](computation-ressources.md)
 * [Datasets](datasets.md)
 * [Contribute](contribute.md)
-* [Ressources for learning](ressources-to-learn.md)
-* [Computation ressources](computation-ressources.md)
-
+* [Requests for Research](request.md)
