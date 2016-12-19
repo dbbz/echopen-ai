@@ -51,4 +51,8 @@ sleep 24h
 - Number of cores:  1-6
 - If you use a GPU, you can allocate a maximum of 8 cores. 
 
+### Futher SBATCH options
+
+
+
 ### Tensorflow and Cuda8
