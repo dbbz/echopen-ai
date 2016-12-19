@@ -20,7 +20,7 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 then make `ZSH` you default shell with
 
-    
+    echo "exec /bin/zsh" >> .bash_profile
 
 
 ```
