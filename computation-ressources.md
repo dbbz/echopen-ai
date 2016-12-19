@@ -29,6 +29,8 @@ _ROMEO_ uses the `Slurm` workload manager. There are three main commands to know
 - `squeue -u <username>`, to display various information about your jobs, like the `<job id>`
 - `scancel <job id>`, in order to cancel a job
 
+
+
 ```
 #!/bin/bash
 #SBATCH --time=100:30:00
