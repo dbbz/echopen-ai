@@ -43,3 +43,8 @@ module load cuda/8.0_test
 jupyter notebook /home/dbenbouzid/notebooks
 sleep 10000h
 ```
+
+### Ressources restrictions
+- Number of GPUs: 0-2
+- Number of cores:  1-6
+- If you use a GPU, you can allocate a maximum of 8 cores. 
