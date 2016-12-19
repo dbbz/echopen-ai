@@ -47,3 +47,4 @@ sleep 24h
 - Number of cores:  1-6
 - If you use a GPU, you can allocate a maximum of 8 cores. 
 
+### Tensorflow and Cuda8
