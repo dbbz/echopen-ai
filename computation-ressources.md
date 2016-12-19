@@ -15,7 +15,7 @@ For your first connexion, I strongly recommend using `ZSH` in order to boost you
 ```
 sh -c "$(curl -fsSL     https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # or
-
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
 
 
