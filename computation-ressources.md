@@ -49,7 +49,7 @@ sleep 24h
 ### Ressources restrictions
 - Number of GPUs per node: 0-2
 - Number of cores per node:  1-16
-- If the number of cores is greater than 8, you must allocate . 
+- If the number of cores is greater than 8, you must allocate both GPUs. 
 
 ### Futher SBATCH options
 ``` 	 
