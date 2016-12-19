@@ -9,5 +9,13 @@ We are extremely grateful to our partner, the [ROMEO](https://romeo.univ-reims.f
 If you have an account on ROMEO, 
 
 ```
+ssh <username>@romeo1.univ-reims.fr
+```
+
+For your first connexion, I strongly recommend using `ZSH` in order to boost your productivity
+
+```
+sh -c "$(curl -fsSL     https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# or
 
 ```
