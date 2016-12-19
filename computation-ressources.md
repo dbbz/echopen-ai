@@ -25,6 +25,10 @@ then make `ZSH` you default shell with
 ### Launching jobs
 _ROMEO_ uses the `Slurm` workload manager. There are three main commands to know in order to start off
 
+- `sbatch <script name>`, for launching scripts.
+- `squeue -u <username>`, to display various information about your jobs, like the `<job id>`
+- `scancel <job id>`, in order to cancel a job
+
 ```
 #!/bin/bash
 #SBATCH --time=100:30:00
