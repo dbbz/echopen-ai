@@ -1,15 +1,18 @@
 # echOpen learning infrastructure
-This section explains how to run a learning procedure on our computing infrastructre, while providing some tips and good practices advices. 
 
-## On ROMEO
-We are extremely grateful for having a partnership with [_ROMEO_](https://romeo.univ-reims.fr/) (probably the biggest GPU farm in Europe currently). 
-After getting an account and a `<username>` on ROMEO, 
+This section explains how to run a learning procedure on our computing infrastructre, while providing some tips and good practices advices.
+
+## On the ROMEO cluster
+
+We are extremely grateful for having a partnership with [_ROMEO_](https://romeo.univ-reims.fr/) \(probably the biggest GPU farm in Europe currently\).   
+After getting an account and a `<username>` on ROMEO,
 
 ```
 ssh <username>@romeo1.univ-reims.fr
 ```
 
 ### Tip
+
 For your first connexion, I strongly recommend using `ZSH` as a productivity booster
 
 ```
@@ -20,16 +23,19 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 then make `ZSH` you default shell with
 
-    echo "exec /bin/zsh" >> .bash_profile
+```
+echo "exec /bin/zsh" >> .bash_profile
+```
 
 ### Launching jobs
+
 _ROMEO_ uses the `Slurm` workload manager. There are three main commands to know in order to start off
 
-- `sbatch <script name>`, for launching scripts.
-- `squeue -u <username>`, to display various information about your jobs, like the `<job id>`
-- `scancel <job id>`, in order to cancel a job
+* `sbatch <script name>`, for launching scripts.
+* `squeue -u <username>`, to display various information about your jobs, like the `<job id>`
+* `scancel <job id>`, in order to cancel a job
 
-In order to launch a job, you will have to write a script containing two parts: a ressource definition and the actual instructions you would like to execute.  The ressource definition describes what kind of machine you want to allocate, the number of cores, the number of GPUs etc. every definition starts with `#SBATCH`. Here is an example that does nothing but a `sleep`. 
+In order to launch a job, you will have to write a script containing two parts: a ressource definition and the actual instructions you would like to execute.  The ressource definition describes what kind of machine you want to allocate, the number of cores, the number of GPUs etc. every definition starts with `#SBATCH`. Here is an example that does nothing but a `sleep`.
 
 ```
 #!/bin/bash
@@ -47,22 +53,26 @@ sleep 24h
 ```
 
 ### Ressources constraints
-- Number of GPUs per node: 0-2
-- Number of cores per node:  1-16
-- If the number of cores is greater than 8, you must allocate both GPUs. 
+
+* Number of GPUs per node: 0-2
+* Number of cores per node:  1-16
+* If the number of cores is greater than 8, you must allocate both GPUs. 
 
 ### Futher SBATCH options
-``` 	 
+
+```
 #SBATCH --mail-user=<name@domain.com>
 #SBATCH --mail-type=ALL
 ```
 
 ### Further Slurm options
-- `scontrol show job <job id>`, for a detailed description of a job
-- `scancel --interactive --user=<username>`, cancel all the jobs of a specific user
-- `srun <command>`, immediate execution of a command
+
+* `scontrol show job <job id>`, for a detailed description of a job
+* `scancel --interactive --user=<username>`, cancel all the jobs of a specific user
+* `srun <command>`, immediate execution of a command
 
 ### ENV variables inside jobs
+
 ```
 SLURM_NPROCS : number of cores
 SLURM_NNODES : number of nodes
@@ -71,12 +81,19 @@ SLURM_JOB_NODELIST : list of nodes
 SLURM_SUBMIT_DIR : source directory for the job
 ```
 
-### Tensorflow and Cuda8 (temporary setup)
+### Tensorflow and Cuda8 \(temporary setup\)
 
 `Tensorflow` uses Cuda8, which is not currently deployed on all of the nodes. If you want to use it, you will have to add
 
-    module load cuda/8.0_test
-    
+```
+module load cuda/8.0_test
+```
+
 to your script, and restric your job submission to the nodes that actually implement Cuda8. This is done using the `-w` option of `sbatch`, followed by the list of valid nodes
 
-    sbatch <script name> -w romeo[35,45-51,56,58,63-74,140]
+```
+sbatch <script name> -w romeo[35,45-51,56,58,63-74,140]
+```
+
+
+
