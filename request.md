@@ -16,7 +16,9 @@
 * Data security
 * Data repatriation
 
-# Mobile Deployment {#mobile-deployment}
+# Noise Reduction {#noise_reduction}
+
+# Mobile Deployment {#mobile_deployment}
 
 ## Ressources
 
