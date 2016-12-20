@@ -4,7 +4,7 @@ This section explains how to run a learning procedure on our computing infrastru
 
 ## On the ROMEO cluster
 
-We are extremely grateful for having a partnership with [_ROMEO_](https://romeo.univ-reims.fr/) \(probably the biggest GPU farm in Europe currently\).  
+We benefit from a strong partnership with with [_ROMEO_](https://romeo.univ-reims.fr/), a farm of 200 GPUs hosted by the University of Reims Champagne-Ardenne. 
 After getting an account and a `<username>` on ROMEO,
 
 ```
