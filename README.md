@@ -18,3 +18,5 @@ The short-term objective is to endow echOpen with an _AI-aided diagnosis_ system
 
 ## Partnerships and data
 
+
+
