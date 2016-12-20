@@ -18,3 +18,13 @@
 
 
 
+# Android Deployment
+
+## Ressources
+
+* https://github.com/ENCP/CNNdroid
+
+
+
+
+
