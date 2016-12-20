@@ -100,9 +100,5 @@ then make `ZSH` you default shell with
 echo "exec /bin/zsh" >> .bash_profile
 ```
 
-#### Jupyter notebook
-
-It is often useful 
-
 
 
