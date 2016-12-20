@@ -11,22 +11,6 @@ After getting an account and a `<username>` on ROMEO,
 ssh <username>@romeo1.univ-reims.fr
 ```
 
-### Tip
-
-For your first connexion, I strongly recommend using `ZSH` as a productivity booster
-
-```
-sh -c "$(curl -fsSL     https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-# or
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-```
-
-then make `ZSH` you default shell with
-
-```
-echo "exec /bin/zsh" >> .bash_profile
-```
-
 ### Launching jobs
 
 _ROMEO_ uses the `Slurm` workload manager. There are three main commands to know in order to start off
@@ -94,6 +78,24 @@ to your script, and restric your job submission to the nodes that actually imple
 ```
 sbatch <script name> -w romeo[35,45-51,56,58,63-74,140]
 ```
+
+### Tips
+
+For your first connexion, I strongly recommend using `ZSH` as a productivity booster
+
+```
+sh -c "$(curl -fsSL     https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# or
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+```
+
+then make `ZSH` you default shell with
+
+```
+echo "exec /bin/zsh" >> .bash_profile
+```
+
+### 
 
 
 
