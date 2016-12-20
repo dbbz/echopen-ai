@@ -4,7 +4,7 @@ This document aims at motivating the application of Artificial Intelligence \(AI
 
 ## The project
 
-Despite the technological advances we currently enjoy in many parts of the world, it remains that two third of the world population have no access whatsoever to any medical diagnosis device \[ref\]. This situation is mainly due to the exorbitant price of such medical tools and the lack of enough trained medical practitioners in some regions. We believe that open source, collective intelligence and artificial intelligence, combined together, could solve this aberrant situation and literally save millions of lives.
+Despite the technological advances a large part of world enjoys today, it remains that two third of the world population have no access whatsoever to any medical diagnosis device \[ref\]. This situation is mainly due to the exorbitant price of these medical tools and the lack of enough trained medical practitioners in some regions. We believe that open source, collective intelligence and artificial intelligence, combined together, could solve this aberrant situation and literally save millions of lives.
 
 echOpen is an open-source
 
