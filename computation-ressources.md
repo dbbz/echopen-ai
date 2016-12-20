@@ -81,7 +81,7 @@ sbatch <script name> -w romeo[35,45-51,56,58,63-74,140]
 
 ### Tips
 
-For your first connexion, I strongly recommend using `ZSH` as a productivity booster
+During the first connexion, I strongly recommend setting up `ZSH` with \`\`as a productivity booster
 
 ```
 sh -c "$(curl -fsSL     https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
