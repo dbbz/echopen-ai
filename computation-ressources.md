@@ -4,7 +4,7 @@ This section explains how to run a learning procedure on our computing infrastru
 
 ## On the ROMEO cluster
 
-We are extremely grateful for having a partnership with [_ROMEO_](https://romeo.univ-reims.fr/) \(probably the biggest GPU farm in Europe currently\).   
+We are extremely grateful for having a partnership with [_ROMEO_](https://romeo.univ-reims.fr/) \(probably the biggest GPU farm in Europe currently\).  
 After getting an account and a `<username>` on ROMEO,
 
 ```
@@ -65,13 +65,13 @@ sleep 24h
 #SBATCH --mail-type=ALL
 ```
 
-### Further Slurm options
+### Further Slurm commands
 
 * `scontrol show job <job id>`, for a detailed description of a job
 * `scancel --interactive --user=<username>`, cancel all the jobs of a specific user
 * `srun <command>`, immediate execution of a command
 
-### ENV variables inside jobs
+### Environment variables accessible inside jobs
 
 ```
 SLURM_NPROCS : number of cores
