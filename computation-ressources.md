@@ -4,7 +4,8 @@ This section explains how to run a learning procedure on our computing infrastru
 
 ## On the ROMEO cluster
 
-We benefit from a strong partnership with with [_ROMEO_](https://romeo.univ-reims.fr/), a farm of 200 GPUs hosted by the University of Reims Champagne-Ardenne. 
+We benefit from a strong partnership with with [_ROMEO_](https://romeo.univ-reims.fr/), a farm of 200 GPUs hosted by the University of Reims Champagne-Ardenne. Therefore, if you want to run learning procedures on this cluster, you will need to first open an account. 
+
 After getting an account and a `<username>` on ROMEO,
 
 ```
