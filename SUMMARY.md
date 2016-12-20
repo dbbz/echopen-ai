@@ -6,4 +6,5 @@
 * [Datasets](datasets.md)
 * [How to contribute](contribute.md)
 * [Requests for Research](request.md)
+* Mobile deployment
 
