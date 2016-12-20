@@ -16,15 +16,11 @@
 * Data security
 * Data repatriation
 
-
-
 # Android Deployment
 
 ## Ressources
 
-* https://github.com/ENCP/CNNdroid
-
-
+* [https://github.com/ENCP/CNNdroid](https://github.com/ENCP/CNNdroid)
 
 
 
