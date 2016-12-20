@@ -4,13 +4,15 @@ This section explains how to run a learning procedure on our computing infrastru
 
 ## On the ROMEO cluster
 
-We benefit from a strong partnership with with [_ROMEO_](https://romeo.univ-reims.fr/), a farm of 200 GPUs hosted by the University of Reims Champagne-Ardenne. Therefore, if you want to run training procedures on this cluster, you will need first to get an account. 
+We benefit from a strong partnership with with [_ROMEO_](https://romeo.univ-reims.fr/), a farm of 200 GPUs hosted by the University of Reims Champagne-Ardenne. Therefore, if you want to run training procedures on this cluster, you will need first to get an account[^1]. 
 
 After getting an account and a `<username>` on ROMEO,
 
 ```
 ssh <username>@romeo1.univ-reims.fr
 ```
+
+[^1]: So far, only core echOpen members have access to it, so you you what to do if 
 
 ### Launching jobs
 
