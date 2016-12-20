@@ -6,7 +6,7 @@
 * [Datasets](datasets.md)
 * [How to contribute](contribute.md)
 
-## [Requests for Research](request.md)
+## Requests for Research
 * [Noise reduction](request.md#noise_reduction)
 * [Mobile deployment](request.md#mobile_deployment)
 
