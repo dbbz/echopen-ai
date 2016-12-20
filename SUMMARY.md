@@ -4,9 +4,12 @@
 * [Academic ressources](ressources-to-learn.md)
 * [Computational ressources](computation-ressources.md)
 
-# Part
+# R
 
 * [Datasets](datasets.md)
+
+--- 
+
 * [How to contribute](contribute.md)
 * [Requests for Research](request.md)
 
