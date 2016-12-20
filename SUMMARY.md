@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Academic ressources](ressources-to-learn.md)
-* [Computational ressources](computation-ressources.md)
 * [Datasets](datasets.md)
 * [How to contribute](contribute.md)
 
@@ -11,4 +9,6 @@
 * [Mobile deployment](request.md#mobile_deployment)
 
 
-
+## Ressources
+* [Academic ressources](ressources-to-learn.md)
+* [Computational ressources](computation-ressources.md)
