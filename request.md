@@ -16,7 +16,7 @@
 * Data security
 * Data repatriation
 
-# Android Deployment
+# Mobile Deployment {#mobile-deployment}
 
 ## Ressources
 
