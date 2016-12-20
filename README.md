@@ -8,13 +8,11 @@ Despite the technological advances a large part of world enjoys today, it remain
 
 _echOpen_ is an open-source ultrasound probe connected to an android smartphone
 
-It is a wireless probe connected to a smartphone, h
-
 Network, embedded
 
 Data
 
-The short-term objective is to endow echOpen with an _AI-aided diagnosis_ system, capable of detecting organs, anomalies and in general, improving the image quality and the user experience of the medical practitioner. The long-term objectif is to extend its usability to non-practitioners, make deployable with little or no training, thus providing an immediate dia
+The short-term objective is to endow echOpen with an _AI-aided diagnosis_ system, capable of detecting organs, anomalies and in general, improving the image quality and the user experience of the medical practitioner. The long-term objectif is to extend its usability to non-practitioners, make deployable with little or no training.
 
 ## Partnerships and data
 
