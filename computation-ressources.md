@@ -84,6 +84,8 @@ sbatch <script name> -w romeo[35,45-51,56,58,63-74,140]
 
 ### Tips
 
+#### Zsh
+
 During the first connexion, I strongly recommend setting up `ZSH` with \`\`as a productivity booster
 
 ```
