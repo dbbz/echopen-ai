@@ -7,11 +7,20 @@ Here we list the datasets we use to train our models. Feel free to send a pull r
 **url**: kaggle.com/c/ultrasound-nerve-segmentation/
 
 ### VScan images
+To be written
 
 ### Scanner conversion
+To be written
+
 
 ### AP-HP datalake
+To be written
+
 
 ### Aquarium 
+To be written
+
 
 ### Simulator 
+To be written
+
