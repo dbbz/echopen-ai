@@ -31,9 +31,8 @@ TODO
 * Model compression
 * Precision reduction
 
-## Ressources
-
-* [https://github.com/ENCP/CNNdroid](https://github.com/ENCP/CNNdroid)
+* **Ressources**
+ * [https://github.com/ENCP/CNNdroid](https://github.com/ENCP/CNNdroid)
 
 
 
