@@ -18,10 +18,6 @@ As well as non technical questions, as for
 * Data security
 * Data repatriation
 
-#  {#noise_reduction}
-
-
-
 Following the model of [OpenAI](https://openai.com/requests-for-research/) and [AI-ON](http://ai-on.org/), we have specified a number of subjects that are only waiting to be tackled. Some of them pertain to engineering, other are still in the domain of research.
 
 ## Non-ML questions
