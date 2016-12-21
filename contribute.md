@@ -8,7 +8,7 @@ There are several ways to contribute.
 
 ## Pick one of the [Requests for Research](/request.md)
 
-* Choose a problem 
+* Choose a problem to work on
 * Download the data
 * Optionally read the literature 
 * Create a Jupyter notebook 
