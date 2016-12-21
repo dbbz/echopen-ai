@@ -12,5 +12,5 @@ The short-term objective is to endow echOpen with an _AI-aided diagnosis_ system
 
 ## Partnerships and data
 
-echOpen benefits from different academic partnerships. The transducer for example is developed within the École Nationale Supérieure \(TODO: link\), \(TODO: other examples\). As for the medical data, our partner and incubator, the [AP-HP](https://en.wikipedia.org/wiki/Assistance_Publique_%E2%80%93_H%C3%B4pitaux_de_Paris) is accompanying in order to have the da
+echOpen benefits from different academic partnerships. We are currently closely working with our partner and incubator, the [AP-HP](https://en.wikipedia.org/wiki/Assistance_Publique_%E2%80%93_H%C3%B4pitaux_de_Paris) in order to exploit anonymous data from their data lake and use it for training our models.
 
