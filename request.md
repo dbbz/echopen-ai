@@ -1,5 +1,7 @@
 # Request for Research
 
+As an Open Research/Open source project, we welcome every contribution, from simple suggestions to concrete implementations. Following the model of [OpenAI](https://openai.com/requests-for-research/) and [AI-ON](http://ai-on.org/), 
+
 * Explainability of the models
 * Compression of the models
 * Real-time prediction on a mobile device
