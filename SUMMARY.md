@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [Datasets](datasets.md)
 * [How to contribute](contribute.md)
+* [Datasets](datasets.md)
 
 ### Requests for Research
 
