@@ -2,6 +2,8 @@
 
 As an Open Research/Open source project, we welcome every contribution, from simple suggestions to concrete implementations. Following the model of [OpenAI](https://openai.com/requests-for-research/) and [AI-ON](http://ai-on.org/), we have specified a number of subjects that are only waiting to be tackled. Some of them pertain to engineering, other are still in the domain of research.
 
+Interestingly, echOpen raises many questions on different topics related to AI
+
 * Explainability of the models
 * Compression of the models
 * Real-time prediction on a mobile device
