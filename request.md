@@ -22,9 +22,7 @@ Following the model of [OpenAI](https://openai.com/requests-for-research/) and [
  
 # Noise Reduction {#noise_reduction}
 
-Image improvement
-
-TODO
+Image improvement (TODO).
 
 # Mobile Deployment {#mobile_deployment}
 
