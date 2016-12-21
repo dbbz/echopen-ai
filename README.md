@@ -6,7 +6,7 @@ This document aims at motivating the application of **Artificial Intelligence** 
 
 Despite the technological advances a large part of world enjoys today, it remains that two third of the world population have no access whatsoever to a medical diagnosis device \[ref\]. This situation is mainly due to the exorbitant price of these medical tools as well as the lack of a proper number of trained medical practitioners in some regions. We believe that open source, collective intelligence and artificial intelligence, combined together, could change this aberrant situation and literally save millions of lives.
 
-_echOpen_ is an open-source ultrasound probe connected to an android smartphone, therefore, it provides a rich framework for implementing novel AI applications in the medical field. 
+_echOpen_ is an open-source ultrasound probe connected to an android smartphone. Here, we are interested in echOpen as a platform for implementing novel AI applications for medical diagnosis. In fact, having 
 
 Network, embedded
 
