@@ -1,10 +1,10 @@
 # Request for Research
 
-As an Open Research/Open source project, we welcome every contribution, from simple suggestions to concrete implementations. Interestingly, echOpen raises many interesting questions on different topics related to AI, 
+As an Open Research/Open source project, we welcome every contribution, from simple suggestions to concrete implementations. Interestingly, echOpen raises many interesting questions on different topics related to AI, such as
 
-* Denoising images and improving the image quality for physicians \(electronic and speckle\)
-* Organ recognition 
-* Anomaly detection
+* Denoising images and improving the image quality for physicians \(electronic noise and speckle reduction for instance\)
+* Organ recognition
+* Anomaly and pathology detection
 * Model adaptation for particular cases \(fat subjects etc.\)
 * Explainability of the models
 * Compression of the models
