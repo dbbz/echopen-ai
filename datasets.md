@@ -1,22 +1,24 @@
 # Datasets
 
-Here we list the datasets we use to train our models. Feel free to send a pull request if you want to add another one. 
+Here we list the datasets we use to train our models. Feel free to send a pull request if you want to add another one.
 
-### Kaggle ultrasound nerve segmentation
+## Internal data
 
-**url**: kaggle.com/c/ultrasound-nerve-segmentation/
+* **VScan images**: TODO
+* **Scanner conversion**: TODO
+* **Aquarium**: TODO
+* **Simulator**: TODO
 
-### VScan images
-TODO
+## Our partners' data
 
-### Scanner conversion
-TODO
+* **AP-HP datalake**: TODO
 
-### AP-HP datalake
-TODO
+## External data
 
-### Aquarium 
-TODO
+* **Kaggle ultrasound nerve segmentation**: 
+  * **url**: kaggle.com/c/ultrasound-nerve-segmentation/
 
-### Simulator 
-TODO
+
+
+
+
