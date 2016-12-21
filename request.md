@@ -5,7 +5,7 @@ As an Open Research/Open source project, we welcome every contribution, from sim
 * Denoising images and improving the image quality for physicians \(electronic noise and speckle reduction for instance\)
 * Organ recognition
 * Anomaly and pathology detection
-* Model adaptation for particular cases \(fat subjects etc.\)
+* Model adaptation for particular particular patients
 * Explainability of the models
 * Compression of the models
 * Real-time prediction on a mobile device
