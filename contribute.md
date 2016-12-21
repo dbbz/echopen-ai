@@ -11,9 +11,10 @@ There are several ways to contribute.
 * Choose a problem 
 * Download the data
 * Optionally read the literature 
-* Create a jupyter notebook 
+* Create a Jupyter notebook 
 * Fill it with all the details about your approach and the necessary references
 * If pertinent, report the performance of your approach if the request in question is associated with a leaderboard.
+* Send a Pull Request
 
 
 
