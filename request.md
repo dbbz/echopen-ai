@@ -20,6 +20,8 @@ As an Open Research/Open source project, we welcome every contribution, from sim
 
 # Noise Reduction {#noise_reduction}
 
+Image improvement
+
 TODO
 
 # Mobile Deployment {#mobile_deployment}
