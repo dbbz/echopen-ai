@@ -4,7 +4,4 @@ Here is a compilation of blog posts and papers that help quickly start working o
 
 * [https://cs231n.github.io/convolutional-networks/](https://cs231n.github.io/convolutional-networks/)
 * Nando de Freitas course, Hugo Larochelle
-* SF summer school
-
-
-
+* SF summer school (TODO: links)
