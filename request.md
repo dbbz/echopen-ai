@@ -13,13 +13,20 @@ As an Open Research/Open source project, we welcome every contribution, from sim
 * Generation a realistic rendering out of ultra-sound images
 * Interactive AI-aided navigation
 
-Following the model of [OpenAI](https://openai.com/requests-for-research/) and [AI-ON](http://ai-on.org/), we have specified a number of subjects that are only waiting to be tackled. Some of them pertain to engineering, other are still in the domain of research.
-
-## Non-ML questions
+As well as non technical questions, as for
 
 * Data security
 * Data repatriation
 
+#  {#noise_reduction}
+
+
+
+Following the model of [OpenAI](https://openai.com/requests-for-research/) and [AI-ON](http://ai-on.org/), we have specified a number of subjects that are only waiting to be tackled. Some of them pertain to engineering, other are still in the domain of research.
+
+## Non-ML questions
+
+* 
 # Noise Reduction {#noise_reduction}
 
 Image improvement
