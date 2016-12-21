@@ -11,6 +11,7 @@ There are several ways to contribute.
 * Choose a problem to work on
 * Download the data
 * Optionally read the literature and/or enrich it with new pertinent papers
+* Preferably, join us on [Slack](https://echopen.slack.com) to discuss your work \(send us a mail to get an account\)
 * Create a Jupyter notebook 
 * Fill it with all the details about your approach and the necessary references
 * If pertinent, report the performance of your approach if the request in question is associated with a leaderboard.
