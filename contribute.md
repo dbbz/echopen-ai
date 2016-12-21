@@ -2,15 +2,18 @@
 
 There are several ways to contribute.
 
-- General discussion: new use-case, new approache for the one of the use-cases
-- Point out to some literature or documentation
-- Work on one of the [requests for research](request.md)
+* **General discussion**: if you feel inspired by the project, want to suggest a new use-case or a new approach to follow, your contributions are always welcome.
+* **Documentation & literature**: we try to list, for every sub-project, the right references and ressources. If you have something to add, simply send a pull request. \(TODO: point to the echopen doc repo\)
+* **Implement & share**: Work on one of the [requests for research](request.md), summarize what you did in a Jupyter notebook or simply document your code, and then send a pull request so we add your work to the knowledge base, compare it to what is already done and deploy it.
+
+## Pick one of the requests for research
+
+* Choose a problem 
+* Download the data
+* Optionally read the literature 
+* Create a jupyter notebook 
+* Fill it with all the details about your approach and the necessary references
+* If pertinent, report the performance of your approach if the request in question is associated with a leaderboard.
 
 
-Take a request for research
-- Choose a problem 
-- Download the data
-- Optionally read the literature 
-- Create a jupyter notebook 
-- Fill it with all the details about your approach and the necessary references
-- If pertinent, report the performance of your approach if the request in question is associated with a leaderboard.
+

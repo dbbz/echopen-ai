@@ -4,7 +4,7 @@ This [gitbook](http://www.gitbook.com) aims at motivating the application of **A
 
 ## The project
 
-Despite the technological advances a large part of world enjoys today, it remains that two third of the world population have no access whatsoever to a medical diagnosis device \(TODO: ref\). This situation is mainly due to the exorbitant price of these medical tools as well as the lack of a proper number of trained medical practitioners in some regions. We believe that open source, collective intelligence and artificial intelligence, combined together, could change this aberrant situation and literally save millions of lives.
+Despite the technological advances a large part of world enjoys today, it remains that two third of the world population have no access whatsoever to a medical diagnosis device \(TODO: ref\). This situation is mainly due to the exorbitant price of these medical tools as well as the lack of a proper number of trained medical practitioners in some regions. Our goal is to produce \`!  We believe that open source, collective intelligence and artificial intelligence, combined together, could change this aberrant situation and literally save millions of lives.
 
 _echOpen_ is an open-source ultrasound probe connected to an android smartphone. Here, we are interested in the device as a platform for implementing novel AI applications for medical diagnosis. Not only modern smartphones offer a substantial amount of computing power for running deep models, both on CPU and GPU, but one can also take advantage of the variety of available sensors in order to improve the user experience, in addition of using the network capabilities for \(consented\) data repatriation, remote diagnosis, continuous update of the AI system etc.
 
