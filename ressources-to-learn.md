@@ -2,8 +2,6 @@
 
 Here is a compilation of blog posts and papers that help quickly start working on neural networks for images. It is not meant to be comprehensive, it rathers provides a short path towards being quickly operational and starting to work on echOpen.
 
-
-
 ### General introduction to Machine Learning
 
 By increasing order of time demand
@@ -16,6 +14,10 @@ By increasing order of time demand
 * [https://cs231n.github.io/convolutional-networks/](https://cs231n.github.io/convolutional-networks/)
 * [Deep Learning School](https://www.youtube.com/watch?v=u6aEYuemt0M) \(September 24/25, 2016\)
 
+### Miscellaneous topics
+
+* [Residual networks](http://torch.ch/blog/2016/02/04/resnets.html) post on Torch blog.
+* Short tutorial on [Autoencoders](http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/)
 
 
 
