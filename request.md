@@ -32,5 +32,7 @@ Image improvement (TODO).
 * **Ressources**
  * [https://github.com/ENCP/CNNdroid](https://github.com/ENCP/CNNdroid)
 
-
-
+* **References**
+ * [Hardware for Machine Learning: Challenges and Opportunities](https://arxiv.org/abs/1612.07625)
+ * [ EIE: Efficient Inference Engine on Compressed Deep Neural Network](https://arxiv.org/abs/1602.01528)
+ * 
