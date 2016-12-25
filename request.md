@@ -37,3 +37,5 @@ Image improvement (TODO).
  * [Trained Ternary Quantization](https://arxiv.org/abs/1612.01064)
  * [Improving the speed of neural networks on CPUs](https://static.googleusercontent.com/media/research.google.com/fr//pubs/archive/37631.pdf)
  * [Training deep neural networks with low precision multiplications](https://arxiv.org/abs/1412.7024)
+ * [Do Deep Nets Really Need to be Deep?](https://arxiv.org/abs/1312.6184)
+ * [Do Deep Convolutional Nets Really Need to be Deep and Convolutional?](https://arxiv.org/abs/1603.05691)
