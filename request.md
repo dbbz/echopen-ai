@@ -34,5 +34,6 @@ Image improvement (TODO).
 * **References**
  * [Hardware for Machine Learning: Challenges and Opportunities](https://arxiv.org/abs/1612.07625)
  * [ EIE: Efficient Inference Engine on Compressed Deep Neural Network](https://arxiv.org/abs/1602.01528)
- * [Trained Ternary Quantization]()
+ * [Trained Ternary Quantization](https://arxiv.org/abs/1612.01064)
  * [Improving the speed of neural networks on CPUs](https://static.googleusercontent.com/media/research.google.com/fr//pubs/archive/37631.pdf)
+ * [Training deep neural networks with low precision multiplications](https://arxiv.org/abs/1412.7024)
