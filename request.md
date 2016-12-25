@@ -26,8 +26,9 @@ Image improvement (TODO).
 
 # Mobile Deployment {#mobile_deployment}
 
-* Model compression
-* Precision reduction
+* **Topics**
+ * Model compression
+ * Precision reduction
 
 * **Ressources**
  * [https://github.com/ENCP/CNNdroid](https://github.com/ENCP/CNNdroid)
