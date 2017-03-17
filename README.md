@@ -12,5 +12,7 @@ The short-term objective is to endow echOpen with an _AI-aided diagnosis_ system
 
 ## Partnerships and data
 
-echOpen benefits from several academic partnerships. As for the data necessary for training learning algorithms, we are closely working with our partner and incubator, the [AP-HP](https://en.wikipedia.org/wiki/Assistance_Publique_%E2%80%93_H%C3%B4pitaux_de_Paris) in order to exploit anonymous data from their data lake, consisting of imaging their corresponding anonymous medical report.
+echOpen benefits from several academic partnerships. As for the data necessary for training learning algorithms, we are closely working with our partner and incubator, the [AP-HP](https://en.wikipedia.org/wiki/Assistance_Publique_–_Hôpitaux_de_Paris) in order to exploit anonymous data from their data lake, consisting of imaging their corresponding anonymous medical report.
+
+More coming
 
